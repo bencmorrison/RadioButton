@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RadioButtonGroup Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/RadioButtonGroup" class="dashAnchor"></a>
+    <a title="RadioButtonGroup Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">RadioButton Docs</a> (62% documented)</p>
+        <p class="header-right"><a href="https://github.com/bencmorrison/RadioButton"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">RadioButton Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        RadioButtonGroup Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/RadioButton.html">RadioButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RadioButtonGroup.html">RadioButtonGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RadioButtonGroup/SelectionStyle.html">– SelectionStyle</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/RadioButtonAnimationInterval.html">RadioButtonAnimationInterval</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/RadioButtonDelegate.html">RadioButtonDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/RadioButtonGroupDelegate.html">RadioButtonGroupDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>RadioButtonGroup</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">RadioButtonGroup</span><span class="p">:</span> <span class="kt"><a href="../Protocols/RadioButtonDelegate.html">RadioButtonDelegate</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Groups together <code><a href="../Classes/RadioButton.html">RadioButton</a></code>s to allow management of multiple radio buttons at once.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Instance%20Variables"></a>
+                <a name="//apple_ref/swift/Section/Instance Variables" class="dashAnchor"></a>
+                <a href="#/Instance%20Variables">
+                  <h3 class="section-name">Instance Variables</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11RadioButton0aB5GroupC14keepOnePressedSbv"></a>
+                    <a name="//apple_ref/swift/Property/keepOnePressed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11RadioButton0aB5GroupC14keepOnePressedSbv">keepOnePressed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>When <code>true</code> this will ensure at least one buttton stays pressed in the group, once a button has been pressed in the group.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">keepOnePressed</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11RadioButton0aB5GroupC14selectionStyleAC09SelectionE0Ov"></a>
+                    <a name="//apple_ref/swift/Property/selectionStyle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11RadioButton0aB5GroupC14selectionStyleAC09SelectionE0Ov">selectionStyle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The selection style for the group.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">selectionStyle</span><span class="p">:</span> <span class="kt"><a href="../Classes/RadioButtonGroup/SelectionStyle.html">SelectionStyle</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11RadioButton0aB5GroupC8delegateAA0abC8Delegate_pSgXwv"></a>
+                    <a name="//apple_ref/swift/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11RadioButton0aB5GroupC8delegateAA0abC8Delegate_pSgXwv">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/RadioButtonGroupDelegate.html">RadioButtonGroupDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11RadioButton0aB5GroupC12groupButtonsSayA2ACGv"></a>
+                    <a name="//apple_ref/swift/Property/groupButtons" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11RadioButton0aB5GroupC12groupButtonsSayA2ACGv">groupButtons</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>All the buttons living in the group</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">groupButtons</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/RadioButton.html">RadioButton</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11RadioButton0aB5GroupC05radiobC17AnimationIntervalAA0abeF0OSgv"></a>
+                    <a name="//apple_ref/swift/Property/radioButtonGroupAnimationInterval" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11RadioButton0aB5GroupC05radiobC17AnimationIntervalAA0abeF0OSgv">radioButtonGroupAnimationInterval</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Controls the group animation interval, when set the group will adher to this interval instead of each individual button animation interval. If set to nil, all buttons will be set to <code>.standard</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">radioButtonGroupAnimationInterval</span><span class="p">:</span> <span class="kt"><a href="../Enums/RadioButtonAnimationInterval.html">RadioButtonAnimationInterval</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11RadioButton0aB5GroupCA2C14SelectionStyleO09selectionE0_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(selectionStyle:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11RadioButton0aB5GroupCA2C14SelectionStyleO09selectionE0_tcfc">init(selectionStyle:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">selectionStyle</span><span class="p">:</span> <span class="kt"><a href="../Classes/RadioButtonGroup/SelectionStyle.html">SelectionStyle</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">single</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Adding%20Buttons"></a>
+                <a name="//apple_ref/swift/Section/Adding Buttons" class="dashAnchor"></a>
+                <a href="#/Adding%20Buttons">
+                  <h3 class="section-name">Adding Buttons</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11RadioButton0aB5GroupC3addyA2AC6button_tF"></a>
+                    <a name="//apple_ref/swift/Method/add(button:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11RadioButton0aB5GroupC3addyA2AC6button_tF">add(button:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">add</span><span class="p">(</span><span class="nv">button</span><span class="p">:</span> <span class="kt"><a href="../Classes/RadioButton.html">RadioButton</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11RadioButton0aB5GroupC3addySayA2ACG7buttons_tF"></a>
+                    <a name="//apple_ref/swift/Method/add(buttons:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11RadioButton0aB5GroupC3addySayA2ACG7buttons_tF">add(buttons:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">add</span><span class="p">(</span><span class="nv">buttons</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/RadioButton.html">RadioButton</a></span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Remove%20Buttons"></a>
+                <a name="//apple_ref/swift/Section/Remove Buttons" class="dashAnchor"></a>
+                <a href="#/Remove%20Buttons">
+                  <h3 class="section-name">Remove Buttons</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11RadioButton0aB5GroupC6removeyA2AC6button_tF"></a>
+                    <a name="//apple_ref/swift/Method/remove(button:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11RadioButton0aB5GroupC6removeyA2AC6button_tF">remove(button:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">remove</span><span class="p">(</span><span class="nv">button</span><span class="p">:</span> <span class="kt"><a href="../Classes/RadioButton.html">RadioButton</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11RadioButton0aB5GroupC6removeySayA2ACG7buttons_tF"></a>
+                    <a name="//apple_ref/swift/Method/remove(buttons:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11RadioButton0aB5GroupC6removeySayA2ACG7buttons_tF">remove(buttons:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">remove</span><span class="p">(</span><span class="nv">buttons</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/RadioButton.html">RadioButton</a></span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11RadioButton0aB5GroupC17setDefaultPressedyA2AC6button_tF"></a>
+                    <a name="//apple_ref/swift/Method/setDefaultPressed(button:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11RadioButton0aB5GroupC17setDefaultPressedyA2AC6button_tF">setDefaultPressed(button:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDefaultPressed</span><span class="p">(</span><span class="nv">button</span><span class="p">:</span> <span class="kt"><a href="../Classes/RadioButton.html">RadioButton</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11RadioButton0aB5GroupC17setDefaultPressedySayA2ACG7buttons_tF"></a>
+                    <a name="//apple_ref/swift/Method/setDefaultPressed(buttons:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11RadioButton0aB5GroupC17setDefaultPressedySayA2ACG7buttons_tF">setDefaultPressed(buttons:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDefaultPressed</span><span class="p">(</span><span class="nv">buttons</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/RadioButton.html">RadioButton</a></span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/RadioButtonDelegate"></a>
+                <a name="//apple_ref/swift/Section/RadioButtonDelegate" class="dashAnchor"></a>
+                <a href="#/RadioButtonDelegate">
+                  <h3 class="section-name">RadioButtonDelegate</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11RadioButton0aB8DelegateP020shouldChangeStateForaB0SbA2ACF"></a>
+                    <a name="//apple_ref/swift/Method/shouldChangeStateForRadioButton(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11RadioButton0aB8DelegateP020shouldChangeStateForaB0SbA2ACF">shouldChangeStateForRadioButton(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">shouldChangeStateForRadioButton</span><span class="p">(</span><span class="n">_</span> <span class="nv">button</span><span class="p">:</span> <span class="kt"><a href="../Classes/RadioButton.html">RadioButton</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11RadioButton0aB8DelegateP05radioB0yA2AC_Sb19pressStateChangedTotF"></a>
+                    <a name="//apple_ref/swift/Method/radioButton(_:pressStateChangedTo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11RadioButton0aB8DelegateP05radioB0yA2AC_Sb19pressStateChangedTotF">radioButton(_:pressStateChangedTo:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">radioButton</span><span class="p">(</span><span class="n">_</span> <span class="nv">button</span><span class="p">:</span> <span class="kt"><a href="../Classes/RadioButton.html">RadioButton</a></span><span class="p">,</span> <span class="n">pressStateChangedTo</span> <span class="nv">pressed</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11RadioButton0aB5GroupC14SelectionStyleO"></a>
+                    <a name="//apple_ref/swift/Enum/SelectionStyle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11RadioButton0aB5GroupC14SelectionStyleO">SelectionStyle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>In a <code><a href="../Classes/RadioButtonGroup.html">RadioButtonGroup</a></code> you can have only one selected or many selected (including all).</p>
+
+                        <a href="../Classes/RadioButtonGroup/SelectionStyle.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">SelectionStyle</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/bencmorrison" target="_blank" rel="external">Benjamin Morrison</a>. All rights reserved. (Last updated: 2018-03-31)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

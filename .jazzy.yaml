@@ -1,0 +1,8 @@
+module: RadioButton
+author: Benjamin Morrison
+author_url: https://github.com/bencmorrison
+github_url: https://github.com/bencmorrison/RadioButton
+clean: true
+readme: README.md
+license: LICENSE
+min-acl: public

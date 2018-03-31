@@ -11,7 +11,7 @@ import UIKit
 extension RadioButton {
     internal final class FilledView: UIView {
         convenience init(parent: UIView) {
-            let rect = RadioButtonFilledView.getRect(fromParentFrame: parent.frame)
+            let rect = FilledView.getRect(fromParentFrame: parent.frame)
             self.init(frame: rect)
             
             setup(parent: parent)

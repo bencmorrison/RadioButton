@@ -1,0 +1,110 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ben/Development/iOS Devs/Radio Button/Radio Button/RadioButton/RadioButton.swift",
+      "line": 15,
+      "symbol": "RadioButton.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ben/Development/iOS Devs/Radio Button/Radio Button/RadioButton/RadioButton.swift",
+      "line": 17,
+      "symbol": "RadioButton.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ben/Development/iOS Devs/Radio Button/Radio Button/RadioButton/RadioButton.swift",
+      "line": 30,
+      "symbol": "RadioButton.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ben/Development/iOS Devs/Radio Button/Radio Button/RadioButton/RadioButton.swift",
+      "line": 51,
+      "symbol": "RadioButton.encode(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ben/Development/iOS Devs/Radio Button/Radio Button/RadioButton/RadioButton.swift",
+      "line": 66,
+      "symbol": "RadioButton.frame",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ben/Development/iOS Devs/Radio Button/Radio Button/RadioButtonGroup/RadioButtonGroup.swift",
+      "line": 16,
+      "symbol": "RadioButtonGroup.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ben/Development/iOS Devs/Radio Button/Radio Button/RadioButtonGroup/RadioButtonGroup.swift",
+      "line": 26,
+      "symbol": "RadioButtonGroup.init(selectionStyle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ben/Development/iOS Devs/Radio Button/Radio Button/RadioButtonGroup/RadioButtonGroup.swift",
+      "line": 36,
+      "symbol": "RadioButtonGroup.add(button:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ben/Development/iOS Devs/Radio Button/Radio Button/RadioButtonGroup/RadioButtonGroup.swift",
+      "line": 42,
+      "symbol": "RadioButtonGroup.add(buttons:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ben/Development/iOS Devs/Radio Button/Radio Button/RadioButtonGroup/RadioButtonGroup.swift",
+      "line": 52,
+      "symbol": "RadioButtonGroup.remove(button:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ben/Development/iOS Devs/Radio Button/Radio Button/RadioButtonGroup/RadioButtonGroup.swift",
+      "line": 57,
+      "symbol": "RadioButtonGroup.remove(buttons:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ben/Development/iOS Devs/Radio Button/Radio Button/RadioButtonGroup/RadioButtonGroup.swift",
+      "line": 64,
+      "symbol": "RadioButtonGroup.setDefaultPressed(button:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ben/Development/iOS Devs/Radio Button/Radio Button/RadioButtonGroup/RadioButtonGroup.swift",
+      "line": 68,
+      "symbol": "RadioButtonGroup.setDefaultPressed(buttons:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ben/Development/iOS Devs/Radio Button/Radio Button/RadioButtonGroup/RadioButtonGroupDelegate.swift",
+      "line": 11,
+      "symbol": "RadioButtonGroupDelegate.radioButtonGroup(_:didPressRadioButton:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ben/Development/iOS Devs/Radio Button/Radio Button/RadioButtonGroup/RadioButtonGroupDelegate.swift",
+      "line": 12,
+      "symbol": "RadioButtonGroupDelegate.radioButtonGroup(_:didUnpressRadioButton:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ben/Development/iOS Devs/Radio Button"
+}
