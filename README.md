@@ -1,11 +1,11 @@
 # RadioButton
-Radio Buttons aren't really a think on iOS, but have you ever wanted them to be a thing? Yes? Maybe? No? If you are one of the first two, have I got great new for you!
+Radio Buttons aren't really a thing on iOS, but have you ever wanted them to be a thing? Yes? Maybe? No? If you are one of the first two, have I got great new for you!
 
 # Quick Preview
 ![Gif of RadioButton being demoed](./media/radio_button_demo.gif)
 
 # Components
-While this README has a bit of an overview. [Click Here for documentation](docs/index.html).
+While this README has a bit of an overview. [Click Here for documentation](https://bencmorrison.github.io/RadioButton/index.html).
 
 ## RadioButton
 The `RadioButton` is a single component that can be used by itself or in a `RadioButtonGroup`.
